@@ -1,0 +1,53 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+#graphContainer {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+#numbersList {
+  display: flex;
+  align-items: center;
+}
+.loadingIndicator{
+ color: #ffffff;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+.card {
+  background-color: #444;
+}
+
+.center-graph {
+  background-color: #222;
+}
+
+.btn {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.card-header,
+.card-body,
+.btn {
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
